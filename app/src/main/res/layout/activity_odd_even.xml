@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="checkOddEven"
+    tools:context=".oddEvenActivity"
+    tools:ignore="UsingOnClickInXml">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#04FFFFFF"
+        android:onClick="backBtn"
+        android:text="@string/homebtn"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:text="@string/enter_a_number_to_check_that_the_number_is_odd_or_even_"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.035"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/inputnum"
+        android:layout_width="260dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:hint="@string/enter_here_number"
+        android:inputType="number"
+        android:textColorHint="#78909C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/submitOE"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:onClick="checkOddEven"
+        android:text="@string/check_cal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputnum"
+        app:layout_constraintVertical_bias="0.112"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/showres"
+        android:layout_width="274dp"
+        android:layout_height="97dp"
+        android:hint="@string/your_result_wil_apere_here"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitOE"
+        app:layout_constraintVertical_bias="0.47" />
+</androidx.constraintlayout.widget.ConstraintLayout>

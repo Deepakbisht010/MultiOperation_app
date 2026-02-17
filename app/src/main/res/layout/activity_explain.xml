@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="307dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="How to use This app "
+        android:textColor="#0C85E7"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:text="Explaination....💥"
+        android:textColor="#C33D3D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="564dp"
+        android:layout_marginTop="148dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="This application is a simple number utility tool that helps you perform three basic operations: Odd/Even Check, Prime Number Check, and Fibonacci Series Generation. To use the app, simply enter a number in the input box and tap the respective button. The Odd/Even Checker instantly tells whether the number is odd or even. The Prime Checker determines if the given number is prime or not. The Fibonacci Generator displays the Fibonacci series up to the entered number. If the input is left empty or contains invalid characters, the app will show a message asking you to enter a valid number. With its clean and easy interface, this app makes learning and checking numbers quick and convenient.\n \n \n "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to use : 📱 "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1. Select the Operation which you want to do . 🫱✅ \n\n 2. Enter A valid Number for Doing Operation . ☺️ \n\n 3. Now click the Button .💥 \n 4. Waiting For result ........😉 \n\n 5. At the end your Result Will be Shown on the display. 👍"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✨ Hope you will enjoy this app ✨ \n Created by :Deepak Singh ❤️🫶🏻"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="center"
+                android:padding="16dp"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

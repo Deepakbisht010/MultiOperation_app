@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MultiScreenApp</string>
+    <string name="textview">TextView</string>
+    <string name="check">Check</string>
+    <string name="your_result_is_apere_here">Your Result is Apere Here :</string>
+    <string name="enter_a_number_to_check_that_the_number_is_prime_or_not">Enter A Number To Check that the number is prime or not:</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="check_prime">Check Prime</string>
+    <string name="fibonacci_series">fibonacci series</string>
+    <string name="look_for_a_list_of_choices_presented_to_you">Look for a list of choices presented to you</string>
+    <string name="multi_working">Multi Working</string>
+    <string name="enter_here_num">Enter here !</string>
+    <string name="your_result_will_apere_here">Your result Will apere here</string>
+    <string name="enter_here_number">Enter Here !</string>
+    <string name="homebtn">🏠</string>
+    <string name="check_cal">Check</string>
+    <string name="enter_a_number_to_check_that_the_number_is_odd_or_even_">Enter a number to check that the number is odd OR even</string>
+    <string name="your_result_wil_apere_here">Your Result wil apere here</string>
+</resources>
